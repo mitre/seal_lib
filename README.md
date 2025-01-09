@@ -2,8 +2,6 @@
 
 seal_lib is a rust library for SEAL developers to put shared code in. 
 
-[[_TOC_]]
-
 ## Version
 1.7.1
 
@@ -11,7 +9,7 @@ seal_lib is a rust library for SEAL developers to put shared code in.
 
 Include this library in any SEAL project with the following line in your Cargo.toml
 ```
-seal_lib = { git = "ssh://git@gitlab.mitre.org/seal/utils/seal_lib.git" }
+seal_lib = { git = "ssh://git@github.com:mitre/seal_lib.git" }
 ```
 
 You might need to help Cargo authenticate with gitlab when trying to install this library.
@@ -31,7 +29,7 @@ access, you can tell Cargo to use a local copy of seal_lib using the following s
 1. Clone a local copy of this repository to your offline machine
 1. Add this snippet to the `Cargo.toml`, replacing seal_lib_path with the relative path to the local copy.
 ```
-[patch.'https://gitlab.mitre.org/seal-public/seal_lib.git']
+[patch.'https://github.com/mitre/seal_lib.git']
 seal_lib = { path = "seal_lib_path" }
 ```
 ## Running the ILF Checker Binary
