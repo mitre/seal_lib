@@ -1,6 +1,6 @@
 # seal_lib
 
-seal_lib is a rust library for SEAL developers to put shared code in. 
+seal_lib is a Rust crate containing common functions for processing Intermediate Log Format (ILF)
 
 ## Version
 1.7.1
@@ -24,7 +24,7 @@ If those steps didn't work, or you're on windows, check this link for more infor
 
 ### Offline Installation
 
-If you need to install a rust project that uses this repo as a dependency, but you're offline or don't have MITRE gitlab
+If you need to install a Rust project that uses this repo as a dependency, but you're offline or don't have MITRE gitlab
 access, you can tell Cargo to use a local copy of seal_lib using the following steps:
 1. Clone a local copy of this repository to your offline machine
 1. Add this snippet to the `Cargo.toml`, replacing seal_lib_path with the relative path to the local copy.
@@ -46,3 +46,13 @@ Pass the path to an ILF file as input. The tool will print parse errors if any I
 ```
 ilf_checker --ilf-file /path/to/file.ilf
 ```
+
+## License
+
+This software is licensed under the Apache 2.0 license.
+
+## Public Release
+
+> [!NOTE]
+> Approved for Public Release; Distribution Unlimited. Public Release Case
+> Number 24-3961.
