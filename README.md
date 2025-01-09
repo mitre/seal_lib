@@ -48,3 +48,13 @@ Pass the path to an ILF file as input. The tool will print parse errors if any I
 ```
 ilf_checker --ilf-file /path/to/file.ilf
 ```
+
+## License
+
+This software is licensed under the Apache 2.0 license.
+
+## Public Release
+
+> [!NOTE]
+> Approved for Public Release; Distribution Unlimited. Public Release Case
+> Number 24-3961.
