@@ -1,0 +1,1 @@
+e2[*,*,1234, (stringVar="string1") ] e2[*,*,1234, (stringVar="string2") ] e2[*,*,1234, (stringVar="\string3") ] e2[*,*,1234, (stringVar="string4") ] e2[*,*,1234, (stringVar="string\") ] e2[*,*,1234, (stringVar="string\string6") ] e2[*,*,1234, (stringVar="\\string7") ] 

@@ -1,0 +1,1 @@
+ProcessCreate[*,*, , ] ProcessCreate[*,*, ,(processPath="C:\\Windows\\System32\\cmd.exe";)] ProcessCreate[*,*, ,(processPath="C:\\Windows\\System32\\regsvr32.exe";)] ProcessCreate[*,*, ,(processPath="C:\\Windows\\System32\\docker.exe";)] 

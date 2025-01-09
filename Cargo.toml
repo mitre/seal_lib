@@ -1,0 +1,23 @@
+[package]
+name = "seal_lib"
+version = "1.7.1"
+edition = "2021"
+authors = ["Victor Paiz <vpaiz@mitre.org>", "Matthew Puentes <mpuentes@mitre.org>", "Caleb Scopetski <cscopetski@mitre.org"]
+
+
+[lib]
+name = "seal_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ilf_checker"
+path = "src/bin.rs"
+
+[dependencies]
+nom = "7"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+anyhow = "1.0"
+chrono = "0.4.26"
+ordered-float = { version = "4.1.1", features = ["serde"] }
+structopt = "0.3.12"

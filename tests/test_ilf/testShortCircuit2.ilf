@@ -1,0 +1,1 @@
+ProcessCreate[*,*, , ] ProcessCreate[*,*, ,(processPath="powershell.exe";)] ProcessCreate[*,*, , ] 
