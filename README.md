@@ -3,7 +3,7 @@
 seal_lib is a Rust crate containing common functions for processing Intermediate Log Format (ILF)
 
 ## Version
-1.7.1
+1.8.1
 
 ## Installation
 

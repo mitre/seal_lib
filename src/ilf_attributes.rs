@@ -32,13 +32,13 @@ use std::vec;
 
 use crate::ilf::Res;
 
-/// Numeric type for wrapping different types of numeric values
+/// Numeric type for wrapping different types of numeric values, order matters due to serde 'untagged'
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Copy, Serialize, Deserialize)]
 #[serde(untagged)]
 pub enum Numeric {
     Int(i32),
-    Double(OrderedFloat<f64>),
     Long(i64),
+    Double(OrderedFloat<f64>),
 }
 
 impl From<f64> for Numeric {

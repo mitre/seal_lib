@@ -1,6 +1,6 @@
 [package]
 name = "seal_lib"
-version = "1.7.1"
+version = "1.8.1"
 edition = "2021"
 authors = ["Victor Paiz <vpaiz@mitre.org>", "Matthew Puentes <mpuentes@mitre.org>", "Caleb Scopetski <cscopetski@mitre.org"]
 
